@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">幻视壁纸-阅读器</string>
+    <string name="app_name_debug">幻视壁纸-阅读器</string>
+
+    <string name="permission_request_alarm">Request permission of alarm</string>
+    <string name="permission_request_notification">Request permission of notification</string>
+    <string name="permission_read_storage">Request permission of reading storage</string>
+    <string name="permission_request_device_admin">Request permission of device admin. If the screen is locked in this way, the subsequent unlocking will not be able to use fingerprint unlocking</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="symbol_colon">:</string>
+    <string name="select">Select</string>
+    <string name="select_all">Select all</string>
+    <string name="download">Download</string>
+    <string name="action_empty">Empty</string>
+
+    <string name="tips_operation_success">Operation success</string>
+    <string name="tips_please_stop_first">Please stop running first</string>
+
+    <string name="tab_title_days">Days</string>
+    <string name="tab_title_rules">Plans</string>
+    <string name="tab_title_albums">Albums</string>
+    <string name="tab_title_styles">Styles</string>
+
+    <string name="simple_section_running">Wallpaper on/off</string>
+    <string name="simple_section_folders">Folders</string>
+    <string name="simple_add_folder">Add folder</string>
+    <string name="simple_scan_subfolders">Scan subfolders</string>
+    <string name="simple_section_switch">Switch wallpaper</string>
+    <string name="simple_previous">Previous</string>
+    <string name="simple_next">Next</string>
+    <string name="simple_jump_to_label">Jump to #</string>
+    <string name="simple_jump_to_out_of_range">This folder does not have that many wallpapers</string>
+    <string name="simple_auto_switch">Switch automatically</string>
+    <string name="simple_interval_minutes">Interval (minutes)</string>
+    <string name="simple_section_effect">Effect</string>
+    <string name="reset">Reset</string>
+    <string name="simple_section_gesture">Double tap gesture</string>
+    <string name="simple_double_tap">Double tap</string>
+    <string name="simple_section_wallpaper_scrollable">Allow wallpaper scrolling</string>
+    <string name="simple_section_image_transition">Transition animation</string>
+    <string name="simple_section_notification">Enable notification</string>
+    <string name="simple_section_widget">Desktop widgets</string>
+
+    <string name="simple_section_scale_type">Scale mode</string>
+    <string name="simple_scale_type">Scale mode</string>
+    <string name="simple_scale_percent">Percent (%)</string>
+    <string name="scale_type_by_height">By height</string>
+    <string name="scale_type_by_width">By width</string>
+    <string name="scale_type_fit">Fit screen</string>
+    <string name="scale_type_fixed_percentage">Fixed percentage</string>
+    <string name="simple_scale_type_disabled_by_reader_tips">Not used while Reader mode is on \u2014 reader mode always starts from "Fit screen", then you adjust it yourself with a pinch/drag gesture.</string>
+
+    <string name="simple_section_reader_mode">Reader mode</string>
+    <string name="simple_reader_mode_tips">When on, pinch with two fingers to zoom the wallpaper (no minimum, you can zoom out to reveal blank margins) and drag with two fingers to pan it. Double tap or the reset button restores default size/position. Each wallpaper remembers its own zoom/position. Only works if your launcher forwards multi-touch gestures to the wallpaper.</string>
+    <string name="simple_reader_reset">Reset size/position</string>
+    <string name="simple_reader_undersize_valign">When image doesn\'t fill the screen</string>
+    <string name="simple_reader_section_paging">Section-by-section paging</string>
+    <string name="simple_reader_section_paging_tips">When on (default), if a wallpaper is zoomed beyond the screen, next/prev first pages through it section by section before moving to the actual next/prev wallpaper. When off, next/prev always jumps straight to the actual next/prev wallpaper, no matter how zoomed in the current one is.</string>
+    <string name="simple_reader_carry_over">Carry over to next wallpaper</string>
+    <string name="simple_reader_carry_over_pan_x_mode">Horizontal position</string>
+    <string name="simple_reader_carry_over_pan_y_mode">Vertical position</string>
+    <string name="simple_reader_double_tap_reset">Double tap to reset zoom/position</string>
+    <string name="simple_reader_reading_direction">Paged navigation reading direction</string>
+
+    <string name="reader_pan_x_mode_follow">Follow (carry over as-is)</string>
+    <string name="reader_pan_x_mode_center">Centered</string>
+    <string name="reader_pan_x_mode_left">Snap to left edge</string>
+    <string name="reader_pan_x_mode_right">Snap to right edge</string>
+    <string name="reader_pan_y_mode_follow">Follow (carry over as-is)</string>
+    <string name="reader_pan_y_mode_center">Centered</string>
+    <string name="reader_pan_y_mode_top">Snap to top edge</string>
+    <string name="reader_pan_y_mode_bottom">Snap to bottom edge</string>
+    <string name="reader_undersize_valign_center">Centered</string>
+    <string name="reader_undersize_valign_top">Snap to top edge</string>
+    <string name="reader_undersize_valign_bottom">Snap to bottom edge</string>
+    <string name="reader_undersize_valign_keep">Keep current position</string>
+    <string name="reader_reading_direction_ltr">Left to right</string>
+    <string name="reader_reading_direction_rtl">Right to left (manga)</string>
+
+    <string name="simple_section_backup">Backup &amp; restore</string>
+    <string name="simple_backup_tips">Local file only, does not include the images themselves — folders, wallpaper list, rules, effect settings and reader-mode zoom/position are included. After restoring, folder access needs to be re-granted and the app needs to be restarted.</string>
+    <string name="simple_backup_export">Export backup</string>
+    <string name="simple_backup_import">Import backup</string>
+    <string name="simple_backup_export_success">Backup exported</string>
+    <string name="simple_backup_export_failed">Failed to export backup</string>
+    <string name="simple_backup_import_failed">Failed to import backup</string>
+    <string name="simple_backup_import_confirm_title">Restore backup?</string>
+    <string name="simple_backup_import_confirm_text">This will overwrite all current folders, rules and settings. This cannot be undone.</string>
+    <string name="simple_backup_import_done_title">Restore complete</string>
+    <string name="simple_backup_import_done_text">The app needs to restart to load the restored data.</string>
+    <string name="simple_section_webdav">WebDAV sync</string>
+    <string name="simple_webdav_tips">Same data as the local backup above (database + settings, including albums, rules, effects, reader zoom/position, current index), just sent to a WebDAV server instead. Manual "upload now"/"download now" only — no scheduled auto-sync. Conflict handling is force-overwrite, no version comparison: upload overwrites the remote file, download overwrites local data. Double-check the direction before confirming. Enter the full file path (e.g. https://dav.example.com/livewallpaper/backup.zip); the username/password are encrypted and stored on-device only, never included in the backup file itself.</string>
+    <string name="simple_webdav_url">WebDAV URL (with filename)</string>
+    <string name="simple_webdav_username">Username</string>
+    <string name="simple_webdav_password">Password</string>
+    <string name="simple_webdav_save">Save credentials</string>
+    <string name="simple_webdav_save_success">Saved</string>
+    <string name="simple_webdav_url_empty">Please enter a WebDAV URL first</string>
+    <string name="simple_webdav_upload">Upload now</string>
+    <string name="simple_webdav_download">Download now</string>
+    <string name="simple_webdav_upload_confirm_title">Upload?</string>
+    <string name="simple_webdav_upload_confirm_text">This will overwrite the file on the WebDAV server if it already exists. Continue?</string>
+    <string name="simple_webdav_download_confirm_title">Download?</string>
+    <string name="simple_webdav_download_confirm_text">This will overwrite all local data (albums, rules, settings, etc.) and cannot be undone. Continue?</string>
+    <string name="simple_webdav_upload_success">Upload succeeded</string>
+    <string name="simple_webdav_upload_failed">Upload failed — check your network and URL/credentials</string>
+    <string name="simple_webdav_download_failed">Download failed — check your network and URL/credentials</string>
+    <string name="simple_widget_tips">The prev/next buttons are two separate 1x1 widgets. Add both from your launcher\'s widget picker.</string>
+    <string name="simple_delete_folder_tips">Remove this folder and its wallpapers from the list?</string>
+    <string name="about_oss_title">Open Source Licenses</string>
+    <string name="about_oss_tap_tips">Tap to view</string>
+    <string name="about_oss_license_text">workpaper-android\nhttps://github.com/Jarvay/workpaper-android\nMIT License\nCopyright (c) 2024 Jarvay\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the above copyright notice and this permission notice being included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND.</string>
+
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    <string name="sunday">Sun</string>
+
+    <string name="rule_start_time">Start time</string>
+    <string name="rule_end_time">End time</string>
+    <string name="rule_execute_time">Execute time</string>
+    <string name="rule_album">Album</string>
+    <string name="rule_change_by_timing">Change wallpaper by timing</string>
+    <string name="rule_change_while_unlock">Change wallpaper after unlock</string>
+    <string name="rule_interval">Interval</string>
+    <string name="rule_random">Random</string>
+    <string name="rule_style">Style</string>
+    <string name="rule_no_style">Do not use any style</string>
+    <string name="rule_replace_global_blur">Cover global blur in settings</string>
+    <string name="rule_blur_radius">Wallpaper blur radius</string>
+    <string name="rule_conflicts_tips">Plans time conflicts</string>
+
+    <string name="album_name">Album name</string>
+    <string name="album_delete_tips">Are you sure to delete this album?</string>
+    <string name="album_is_using_tips">This album is using</string>
+    <string name="album_name_exists">Album name exists</string>
+    <string name="album_wallpaper_delete_tips">Are you sure to delete selected wallpaper?</string>
+    <string name="album_no_cover">No Cover</string>
+    <string name="album_set_as_cover">Set as cover</string>
+    <string name="album_add_images">Add wallpapers</string>
+    <string name="album_add_folder">Add folder</string>
+    <string name="album_relate_folders">Add related folder</string>
+    <string name="album_related_folder_delete_tips">Are you sure to delete related folder?</string>
+    <string name="album_limit_tips" formatted="false">Android limits %d permission for file(folder), %d used, %d leave, %d selected, exceeds limit after adding, please add folder instead of adding images.</string>
+    <string name="album_add_wallpaper_folder_tips">If too many files are selected, it may take some time to wait</string>
+    <string name="album_empty_tips">Are you sure to empty this album?</string>
+
+    <string name="rule_list_item_time">Time</string>
+    <string name="rule_list_item_album">Album</string>
+    <string name="rule_list_item_interval">Change every %s minutes</string>
+    <string name="rule_list_item_change_when_unlock">Change while unlock</string>
+    <string name="rule_list_item_days">Days</string>
+    <string name="rule_list_item_random">Random</string>
+    <string name="rule_list_item_delete_tips">Are you sure to delete deleted this rule?</string>
+    <string name="rule_list_item_forced_used">Use it by force</string>
+    <string name="rule_list_item_cancel_forced_used">Cancel using it by force</string>
+    <string name="rule_list_item_apply_now">Apply now</string>
+    <string name="rule_list_item_style">Style</string>
+    <string name="rule_forced_apply">Forced apply</string>
+    <string name="rule_current_rule">Current</string>
+    <string name="rule_next_rule">Next</string>
+
+    <string name="style_form_item_name">Name</string>
+    <string name="style_form_item_blur_radius">Blur radius</string>
+    <string name="style_form_item_noise">Noise percentage</string>
+    <string name="style_form_item_brightness">Brightness</string>
+    <string name="style_form_item_contrast">Contrast</string>
+    <string name="style_form_item_saturation">Saturation</string>
+
+    <string name="style_list_item_name">Name</string>
+    <string name="style_list_item_blur_radius">Blur radius</string>
+    <string name="style_list_item_noise">Noise percentage</string>
+    <string name="style_list_item_brightness">Brightness</string>
+    <string name="style_list_item_contrast">Contrast</string>
+    <string name="style_list_item_saturation">Saturation</string>
+    <string name="style_list_item_action_set_default">Set as default</string>
+    <string name="style_list_item_action_cancel_default">Cancel setting as default</string>
+    <string name="style_list_item_default">Default</string>
+
+    <string name="settings_item_interval">Wallpaper Change Interval</string>
+    <string name="settings_item_start_with_prev_rule">Use prev plan after start</string>
+    <string name="settings_item_enable_notification">Enable notification</string>
+    <string name="settings_item_notification_ongoing">Notification ongoing</string>
+    <string name="settings_item_also_set_lock_wallpaper">Also set lock wallpaper</string>
+    <string name="settings_item_hide_in_recent_task">Hide in recent task</string>
+    <string name="settings_item_enable_dynamic_color">Enable dynamic color</string>
+    <string name="settings_item_disabled_when_playing_audio">Do not change wallpaper when playing audio</string>
+    <string name="settings_item_use_live_wallpaper">Use live wallpaper</string>
+    <string name="settings_item_settings_of_live_wallpaper">Settings of live wallpaper</string>
+    <string name="settings_item_video_wallpaper_reset_on_screen_off">Reset video progress on Scree</string>
+    <string name="settings_item_live_wallpaper_double_tap">On Double Tap</string>
+    <string name="settings_item_allow_wallpaper_scrolling">Allow wallpaper scrolling</string>
+    <string name="settings_item_live_wallpaper_transition">Image wallpaper transition</string>
+    <string name="settings_item_blur_radius">Wallpaper blur radius</string>
+    <string name="settings_live_wallpaper_tips">Maybe you should permit live wallpaper yourself on some devices</string>
+    <string name="settings_opengles2_not_supported">Your device does not support opengles2</string>
+    <string name="settings_item_enable_log">Save log</string>
+    <string name="settings_item_widget_color_scheme">Widget color scheme</string>
+    <string name="widget_color_scheme_full_transparent_white_text">Fully transparent + white text</string>
+    <string name="widget_color_scheme_full_transparent_black_text">Fully transparent + black text</string>
+    <string name="widget_color_scheme_translucent_black_white_text">Translucent black background + white text</string>
+    <string name="widget_color_scheme_translucent_white_black_text">Translucent white background + black text</string>
+    <string name="widget_color_scheme_opaque_black_white_text">Solid black background + white text</string>
+    <string name="widget_color_scheme_opaque_white_black_text">Solid white background + black text</string>
+
+    <string name="gesture_event_none">None</string>
+    <string name="gesture_event_lock_screen">Lock screen</string>
+    <string name="gesture_event_change_wallpaper_prev">Previous wallpaper</string>
+    <string name="gesture_event_change_wallpaper_next">Next wallpaper</string>
+    <string name="gesture_event_toggle_effect">Toggle effect on/off</string>
+
+    <string name="notify_will_change_at_about">Wallpaper will change at about %s</string>
+    <string name="notify_next_rule_at_about">Will change to next plan at about %s</string>
+    <string name="notify_next_wallpaper">Next wallpaper</string>
+    <string name="notify_action_change_prev">PREVIOUS</string>
+    <string name="notify_action_change_next">CHANGE ONE</string>
+    <string name="notify_action_change_to_next_now">CHANGE TO IT NOW</string>
+</resources>
